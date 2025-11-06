@@ -1,22 +1,18 @@
-package seleniumbasiclearning;
+package seleniumbasiclearning.DropDowns;
 
 import java.time.Duration;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class ImplicitWait {
+public class DropDownsBootstrap {
 
 	public static void main(String[] args) {
 		WebDriver driver = new ChromeDriver();
-		
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
-		driver.get("https://www.amazon.in/");
-		driver.findElement(By.xpath("//input[@id='twotabsearchtextbox']")).sendKeys("Iphone16 pro");
-		
-		driver.close();
+		driver.get("https://www.jquery-az.com/boots/demo.php?ex=63.0_2");
+		driver.manage().window().maximize();
 		
 		
 

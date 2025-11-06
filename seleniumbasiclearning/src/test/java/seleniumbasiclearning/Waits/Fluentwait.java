@@ -1,4 +1,4 @@
-package seleniumbasiclearning;
+package seleniumbasiclearning.Waits;
 
 import java.time.Duration;
 import java.util.function.Function;
