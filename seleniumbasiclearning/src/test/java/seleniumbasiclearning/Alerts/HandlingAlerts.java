@@ -28,7 +28,7 @@ public class HandlingAlerts {
 		
 		/*driver.findElement(By.xpath("//button[@onclick='jsConfirm()']")).click();
 		Thread.sleep(5000);
-//		/driver.switchTo().alert().accept(); // for clicked OK , confirmation alert
+//		driver.switchTo().alert().accept(); // for clicked OK , confirmation alert
 		
 		Alert myalert = driver.switchTo().alert(); 
 		System.out.println(myalert.getText());

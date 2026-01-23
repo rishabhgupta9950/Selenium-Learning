@@ -1,4 +1,4 @@
-package seleniumbasiclearning;
+ package seleniumbasiclearning;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
@@ -49,7 +49,7 @@ public class HandlingBrokenLinkDemo {
 			try {
 				URL urlLink = new URL(hrefAttValue); // converted href value from string to url format
 				HttpURLConnection connection = (HttpURLConnection) urlLink.openConnection(); // open connection to the server
-				connection.connect(); // conect to the server and send request to the server
+				connection.connect(); // connect to the server and send request to the server
 				
 				if(connection.getResponseCode() >= 400) {
 					System.out.println(hrefAttValue+" ====> Broken Link");

@@ -36,7 +36,7 @@ public class HandleFrames {
 		
 		WebElement frame3 = driver.findElement(By.xpath("//frame[@src='frame_3.html']"));
 		driver.switchTo().frame(frame3);
-		// frame 2 text area 
+		// frame 3 text area 
 		driver.findElement(By.xpath("//input[@name='mytext3']")).sendKeys("Core Java");
 		
 		// frame 3 inner frame which is iframe its a part of frame 3

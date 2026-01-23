@@ -21,6 +21,7 @@ public class NavigationalCommands {
 		  driver.manage().window().maximize();
 		  
 		  driver.navigate().to("https://chatgpt.com/");
+		  //driver.switchTo().window("https://chatgpt.com/");
 		  driver.manage().window().maximize();
 		  
 		  driver.navigate().back();

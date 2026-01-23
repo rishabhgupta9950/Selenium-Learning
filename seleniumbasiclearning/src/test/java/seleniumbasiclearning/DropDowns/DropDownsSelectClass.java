@@ -22,7 +22,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class DropDownsSelectClass {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
@@ -32,12 +32,15 @@ public class DropDownsSelectClass {
 		
 		// Select dropdown
 		WebElement drpdownElement = driver.findElement(By.xpath("//select[@id='country']"));
+		Thread.sleep(5000);
+		drpdownElement.click();
+		
 		Select drpdwonCountry = new Select(drpdownElement);
 		
 		
 //		drpdwonCountry.selectByVisibleText("France");
 //		drpdwonCountry.selectByValue("india");
-//		drpdwonCountry.selectByIndex(7);
+		drpdwonCountry.selectByIndex(7);
 		
 		// capture the options from the dropdown
 		

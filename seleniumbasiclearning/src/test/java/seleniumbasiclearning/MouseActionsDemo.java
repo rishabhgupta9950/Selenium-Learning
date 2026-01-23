@@ -104,7 +104,7 @@ public class MouseActionsDemo {
 		
 //		Actions vs Action
 //		
-//		Actions -- class which we usedto perform mouse operations
+//		Actions -- class which we used to perform mouse operations
 //		
 //		Action -- interface which is used to store created actions
 	}

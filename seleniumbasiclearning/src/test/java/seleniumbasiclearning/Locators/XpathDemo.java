@@ -14,10 +14,10 @@ public class XpathDemo {
 		driver.manage().window().maximize();
 		
 		// Xpath with single attribute
-		//driver.findElement(By.xpath("//*[@id=\"twotabsearchtextbox\"]")).sendKeys("Iphoen16");
+		//driver.findElement(By.xpath("//*[@id=\"twotabsearchtextbox\"]")).sendKeys("Iphone16");
 		
 		// Xpath with multiple attributes
-		//driver.findElement(By.xpath("//*[@id='twotabsearchtextbox'][@class='nav-input nav-progressive-attribute']")).sendKeys("Iphoen16");
+		//driver.findElement(By.xpath("//*[@id='twotabsearchtextbox'][@class='nav-input nav-progressive-attribute']")).sendKeys("Iphone16");
 		
 		// Xpath with inner text
 		//driver.findElement(By.xpath("//*[text()='Fresh']")).click();
